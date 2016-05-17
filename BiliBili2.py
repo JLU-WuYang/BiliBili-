@@ -33,6 +33,6 @@ for i in xrange(len(List)):
     html=requests.get("http://www.bilibili.com/m/html5?aid=%s&page=1"%List[i])
     s=json.loads(html.content)
     url=s['src']
-    print "在下坂本有何贵干_%d"%i
+    print "%s_%d"%(aid,i)
     urllib.urlretrieve(url,'%s.flv'%List[i],Schedule)
 browser.close()
