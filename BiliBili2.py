@@ -2,7 +2,7 @@
 """
 Created on Sun May 15 23:21:24 2016
 
-@author: Administrator
+@author: Albert
 """
 import urllib
 import json
